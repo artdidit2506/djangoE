@@ -1,13 +1,18 @@
-{% extends "main.html" %} {% load static %}{% block content %}
+{% extends "main.html" %}
+<!-- Static -->
+{% load static %}
+<!-- Content -->
+{% block content %}
 <!-- ======= Header ======= -->
-{% include "header.html" %}
+{% include "base/header.html" %}
 <!-- End Header -->
 
 <!-- ======= Sidebar ======= -->
-{% include 'sidebar.html' %}
+{% include 'base/sidebar.html' %}
 <!-- End Sidebar-->
 
 <!-- Dashboard -->
-{% include 'dashboard.html' %}
+{% include 'base/dashboard.html' %}
 <!-- End #main -->
 {% endblock content %}
+<!-- End Content -->
