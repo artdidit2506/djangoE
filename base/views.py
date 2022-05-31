@@ -5,3 +5,5 @@ def index(request):
     return render(request, 'base/index.html')
 def about(request):
     return render(request, 'base/about.html')
+def user(request):
+    return render(request, 'base/user-profile.html')
