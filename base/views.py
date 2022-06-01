@@ -5,5 +5,7 @@ def index(request):
     return render(request, 'base/index.html')
 def about(request):
     return render(request, 'base/about.html')
-def user(request):
-    return render(request, 'base/user-profile.html')
+def users(request):
+    return render(request, 'base/users-profile.html')
+def pages(request):
+    return render(request, 'base/pages-faq.html')
